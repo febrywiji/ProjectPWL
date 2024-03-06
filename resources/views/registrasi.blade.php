@@ -14,7 +14,7 @@
     <div class="login">
       <form action="#" method="POST" onSubmit="validasi()">
         <div>
-          <label>Nama Lengkap:</label>
+          <label>Nama:</label>
           <input type="text" name="nama" id="nama" />
         </div>
         <div>
