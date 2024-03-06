@@ -17,6 +17,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {
+Route::get('portal', function () {
+    return view('portal');
+});
+
+Route::get('login', function () {
+    return view('login');
+});
+
+Route::get('register', function () {
+    return view('register');
+  
+Route::get('registrasi', function () {
     return view('registrasi');
 });
