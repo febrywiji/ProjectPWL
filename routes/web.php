@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\EbookController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,4 +24,8 @@ Route::get('login', function () {
 
 Route::get('registrasi', function () {
     return view('registrasi');
+});
+
+Route::get('index', function () {
+    return view('index');
 });
