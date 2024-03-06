@@ -24,9 +24,12 @@ Route::get('portal', function () {
 Route::get('login', function () {
     return view('login');
 });
+<<<<<<< Updated upstream
 
 Route::get('register', function () {
     return view('register');
+=======
+>>>>>>> Stashed changes
   
 Route::get('registrasi', function () {
     return view('registrasi');
