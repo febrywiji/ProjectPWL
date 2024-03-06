@@ -2,10 +2,48 @@
 <html>
 
 <head>
-  <title>Membuat Form Registrasi</title>
-  <link rel="stylesheet" type="text/css" href="../app.css">
-  <style>
-    .isiform {
+  <title>Form Registrasi E-Book</title>
+  <link rel="stylesheet" type="text/css" href="">
+</head>
+
+<body>
+  <div class="isiform">
+    <center>
+      <h2>Form Registrasi E-Book</h2>
+    </center>
+    <div class="login">
+      <form action="#" method="POST" onSubmit="validasi()">
+        <div>
+          <label>Nama:</label>
+          <input type="text" name="nama" id="nama" />
+        </div>
+        <div>
+          <label>Email:</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div>
+          <label>Fakultas</label>
+          <input type="text" name="fakultas" id="fakultas" />
+        </div>
+        <div>
+          <label>Program Studi</label>
+          <input type="text" name="prodi" id="prodi" />
+        </div>
+        <div>
+          <label>Tanggal Lahir:</label>
+          <input type="date" name="tanggal" id="tanggal" />
+        </div>
+        <div>
+          <input type="submit" value="Registrasi" class="tombol" onclick="testresult(this.form)">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+
+<style>
+.isiform {
     display: flex;
     color: black;
     flex-direction: column;
@@ -15,7 +53,7 @@
     position: relative;
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to bottom right, rgb(14, 24, 9, .6), rgb(14, 24, 9, .6)), url("images/mendaki3.jpg");
+    background-color: #40A2E3;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +62,7 @@
   
   
   h2 {
-    color: #fff;
+    color: #efefef;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -70,43 +108,11 @@
   }
   
   .tombol {
-    background: #3e3d38;
+    background: #40A2E3;
     color: #fff;
     border: 0;
     padding: 5px 8px;
     margin-bottom: 20px;
   }
-  </style>
-</head>
-
-<body>
-  <div class="isiform">
-    <center>
-      <h2>Registrasi</h2>
-    </center>
-    <div class="login">
-      <form action="#" method="POST" onSubmit="validasi()">
-        <div>
-          <label>Nama:</label>
-          <input type="text" name="nama" id="nama" />
-        </div>
-        <div>
-          <label>Email:</label>
-          <input type="email" name="email" id="email" />
-        </div>
-        <div>
-          <label>Asal Daerah: (contoh : Pontianak, Kalimantan Barat)</label>
-          <input type="text" name="asal daerah" id="daerah" />
-        </div>
-        <div>
-          <label>Tanggal Lahir:</label>
-          <input type="date" name="tanggal" id="tanggal" />
-        </div>
-        <div>
-          <input type="submit" value="Daftar" class="tombol" onclick="testresult(this.form)">
-        </div>
-      </form>
-    </div>
-  </div>
-</body>
+</style>
 </html>
