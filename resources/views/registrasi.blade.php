@@ -3,7 +3,80 @@
 
 <head>
   <title>Membuat Form Registrasi</title>
-  <link rel="stylesheet" type="text/css" href="app.css">
+  <link rel="stylesheet" type="text/css" href="../app.css">
+  <style>
+    .isiform {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgb(14, 24, 9, .6), rgb(14, 24, 9, .6)), url("images/mendaki3.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  
+  h2 {
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .login {
+    padding: 1cm;
+    margin: 2cm auto;
+    width: 800px;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  
+  label {
+    font-size: 10pt;
+    color: #555;
+  }
+  
+  .selection select {
+    font-size: 10pt;
+    color: #555;
+    padding: 8px;
+    width: 100%;
+    background: #efefef;
+    border: 0;
+    margin: 6px 0px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="number"],
+  select
+  label {
+    padding: 8px;
+    width: 100%;
+    background: #efefef;
+    border: 0;
+    font-size: 10pt;
+    margin: 6px 0px;
+    margin-bottom: 20px;
+  }
+  
+  .tombol {
+    background: #3e3d38;
+    color: #fff;
+    border: 0;
+    padding: 5px 8px;
+    margin-bottom: 20px;
+  }
+  </style>
 </head>
 
 <body>
