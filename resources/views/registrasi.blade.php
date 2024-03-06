@@ -34,7 +34,7 @@
           <input type="date" name="tanggal" id="tanggal" />
         </div>
         <div>
-          <input type="submit" value="Regist" class="tombol" onclick="testresult(this.form)">
+          <input type="submit" value="Registrasi" class="tombol" onclick="testresult(this.form)">
         </div>
       </form>
     </div>
