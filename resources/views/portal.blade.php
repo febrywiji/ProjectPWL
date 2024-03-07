@@ -40,14 +40,9 @@
 <body>
     <div class="container">
         <h1>Welcome to Web Portal</h1>
-<<<<<<< Updated upstream
-        <a href="login.blade.php" class="btn btn-login">Login</a>
-        <a href="registrasi.blade.php" class="btn btn-register">Register</a>
-=======
         <a href="login" class="btn btn-login">Login</a>
         <a href="register" class="btn btn-register">Register</a>
         <a href="guest" class="btn btn-guest">guest</a>
->>>>>>> Stashed changes
     </div>
 </body>
 </html>
