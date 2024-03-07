@@ -39,7 +39,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to Web Portal</h1>
+        <h1>Selamat datang di eBook</h1>
         <a href="login.blade.php" class="btn btn-login">Login</a>
         <a href="registrasi.blade.php" class="btn btn-register">Register</a>
         <a href="index.blade.php" class="btn btn-guest">guest</a>
