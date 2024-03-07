@@ -26,6 +26,11 @@ Route::get('registrasi', function () {
     return view('registrasi');
 });
 
+<<<<<<< Updated upstream
 Route::get('index', function () {
     return view('index');
+=======
+Route::get('guest', function () {
+    return view('guest');
+>>>>>>> Stashed changes
 });
