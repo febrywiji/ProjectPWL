@@ -40,9 +40,9 @@
 <body>
     <div class="container">
         <h1>Welcome to Web Portal</h1>
-        <a href="login" class="btn btn-login">Login</a>
-        <a href="register" class="btn btn-register">Register</a>
-        <a href="guest" class="btn btn-guest">guest</a>
+        <a href="login.blade.php" class="btn btn-login">Login</a>
+        <a href="registrasi.blade.php" class="btn btn-register">Register</a>
+        <a href="index.blade.php" class="btn btn-guest">guest</a>
     </div>
 </body>
 </html>
